@@ -1,0 +1,10 @@
+[package]
+name = "dll"
+version = "0.1.0"
+authors = ["harry"]
+
+[dependencies]
+winreg = "0.10.1"
+
+[lib]
+crate-type = ["cdylib"]
